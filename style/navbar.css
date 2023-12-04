@@ -1,0 +1,35 @@
+nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.logo a{
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 25px;
+}
